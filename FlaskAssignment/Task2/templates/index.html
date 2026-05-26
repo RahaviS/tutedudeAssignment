@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup Form</title>
+  </head>
+  <body>
+    <div class="main">
+      <h1>Sign Up Form</h1>
+      <p class="para">Enter Your Details</p>
+      <div class="container1">
+        <form class="form-container" action="/submit" method="POST">
+          <div class="input-container">
+            <label>Enter Your Name: </label>
+            <input name="name" type="text" />
+          </div>
+          <div class="input-container">
+            <label>Enter Your Password: </label>
+            <input name="password" type="text" />
+          </div>
+          <div class="input-container">
+            <label>Enter Your Profession: </label>
+            <input name="profession" type="text" />
+          </div>
+          <button class="btn">Submit</button>
+        </form>
+      </div>
+    </div>
+  </body>
+  <style>
+    .main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 50px;
+      margin: 20px;
+      background-color: wheat;
+    }
+    .para{
+        font-weight: 600;
+    }
+    .container1 {
+      padding: 100px;
+      border: 1px solid black;
+    }
+    .form-container {
+      display: flex;
+      flex-direction: column;
+      width: 30vw;
+    }
+    .input-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 5px;
+    }
+    .btn {
+      align-self: center;
+      padding: 10px 15px;
+      margin: 10px;
+      border: 1px black solid;
+      border-radius: 4px;
+      background-color: powderblue;
+    }
+  </style>
+</html>

@@ -1,0 +1,14 @@
+{
+    "Name":"Rahavi",
+    "Profession":"Software Developer",
+    "City":"Thanjavur",
+    "State":"Tamil Nadu",
+    "Pincode":600524,
+    "Phone":792132154641,
+    "IsActive":true,
+    "Learning":{
+        "Linux":"Completed",
+        "Python":"In Progress"
+    }
+    
+}
